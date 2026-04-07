@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Kelas PPLG 2 SMK Negeri 1 - Semester Genap 2024/2025. Informasi siswa, jadwal, guru, projek, dan pengumuman kelas Pengembangan Perangkat Lunak dan Gim.">
+    <meta name="keywords" content="PPLG 2, SMK Negeri 1, pemrograman, kelas PPLG 2, PPLG, web development">
+    <meta name="author" content="Kelas PPLG 2">
+    <meta name="theme-color" content="#f59e0b">
+    <link rel="icon" href="./asset/img/logosmk.webp" type="image/x-icon">
+    <title>Kelas PPLG 2 - SMKN 1 TALAGA</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <!-- Font Awesome CDN cukup, hapus local fontawesome.min.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2 id="home">
+                        PPLG 2
+                    </h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#structure">Struktur</a></li>
+                    <li><a href="#students">Siswa/i</a></li>
+                    <li><a href="#projects">Projek</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <div class="nav-right">
+                    <div class="theme-toggle">
+                        <i class="fas fa-moon" id="theme-icon"></i>
+                    </div>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="welcomePopup" class="popup-overlay">
+        <div class="popup-box">
+            <h2>Selamat Datang</h2>
+            <p>
+                Selamat datang di website Kelas PPLG 2 SMKN 1 TALAGA!<br><br>
+                Website ini dibuat untuk memberikan informasi lengkap tentang kelas kami,
+                termasuk daftar siswa, struktur organisasi, projek, dan galeri kegiatan.<br><br>
+                Terima kasih telah mengunjungi website kami!
+            </p>
+        </div>
+    </div>
+
+    <main id="main-content" role="main">
+        <section id="home" class="hero hero-carousel">
+            <div class="hero-slides">
+                <!-- Slide 1 -->
+                <div class="hero-slide active">
+                    <div class="slide-bg" style="background-image: url('./asset/img/PPLG2.webp')"></div>
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content">
+                        <h1>Selamat Datang di Kelas <span>11 PPLG 2</span></h1>
+                        <p>Ajaran 2024/2025</p>
+                        <p>Generasi Kreatif, Inovatif, Siap Digital</p>
+                        <a href="#students" class="cta-button">Lihat Daftar Siswa</a>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="hero-slide">
+                    <div class="slide-bg" style="background-image: url('./asset/img/galery/belajar.jpg')"></div>
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content">
+                        <h1>Belajar <span>Pemrograman</span></h1>
+                        <p>Web, Mobile, dan Desktop</p>
+                        <p>Bersama Guru Profesional</p>
+                        <a href="#projects" class="cta-button">Lihat Projek</a>
+                    </div>
+                </div>
+
+                <!-- Slide 3 - Galeri -->
+                <div class="hero-slide">
+                    <div class="slide-bg" style="background-image: url('./asset/img/galery/variasi.JPG')"></div>
+                    <div class="hero-overlay"></div>
+                    <div class="hero-content">
+                        <h1>Momen <span>Tak Terlupakan</span></h1>
+                        <p>Setiap foto menyimpan cerita dan kenangan</p>
+                        <p>Bersama dalam suka dan duka</p>
+                        <a href="#gallery" class="cta-button">Lihat Galeri</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Indikator dot -->
+            <div class="hero-dots">
+                <span class="hero-dot active"></span>
+                <span class="hero-dot"></span>
+                <span class="hero-dot"></span>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Tentang Kelas PPLG 2</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="class-info">
+                            <p><strong>Wali Kelas:</strong> Dewi Robiatul Adawiyah, S.Pd.</p>
+                            <p><strong>Tahun Ajaran:</strong> 2024/2025</p>
+                            <p><strong>jumlah siswa/i:</strong> 31</p>
+                            <p><strong>Kompetensi Keahlian:</strong> Pengembangan Perangkat Lunak dan Gim</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Structure Section -->
+        <section id="structure" class="structure">
+            <div class="container">
+                <h2>Struktur Organisasi Kelas</h2>
+
+                <!-- Wali Kelas -->
+                <div class="wali-kelas">
+                    <div class="structure-item">
+                        <div class="structure-photo">
+                            <img src="./asset/img/guru/DEWI_ROBIATUL_ADAWIYAH.jpg" loading="lazy" alt="Wali Kelas">
+                        </div>
+                        <div class="structure-info">
+                            <h3>Wali Kelas</h3>
+                            <p>Dewi Robiatul Adawiah, S.Pd.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pengurus Inti -->
+                <div class="structure-grid-simple">
+                    <div class="structure-item">
+                        <div class="structure-photo">
+                            <img src="./asset/img/murid/RAKA_SYAPUTRA_PRATAMA.webp" loading="lazy">
+                        </div>
+                        <div class="structure-info">
+                            <h3>Ketua Kelas</h3>
+                            <p>RAKA SYAPUTRA PRATAMA</p>
+                        </div>
+                    </div>
+
+                    <div class="structure-item">
+                        <div class="structure-photo">
+                            <img src="./asset/img/murid/ALDI_SAEFUL_NIZAR.webp" loading="lazy">
+                        </div>
+                        <div class="structure-info">
+                            <h3>Wakil Ketua</h3>
+                            <p>ALDI SAEFUL NIZAR</p>
+                        </div>
+                    </div>
+
+                    <div class="structure-item">
+                        <div class="structure-photo">
+                            <img src="./asset/img/murid/KAILA_AZAHRA.webp" loading="lazy">
+                        </div>
+                        <div class="structure-info">
+                            <h3>Sekretaris</h3>
+                            <p>KAILA AZAHRA</p>
+                        </div>
+                    </div>
+
+                    <div class="structure-item">
+                        <div class="structure-photo">
+                            <img src="./asset/img/murid/MOCH_FAHMI.webp" loading="lazy">
+                        </div>
+                        <div class="structure-info">
+                            <h3>Sekretaris</h3>
+                            <p>MOCH FAHMI</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sisanya dari JS -->
+                <div class="structure-grid-simple" id="structureGrid"></div>
+
+                <!-- Tombol -->
+                <div class="section-more">
+                    <button id="showAllStructure" class="show-all-btn">Tampilkan Semua</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Students Section -->
+        <section id="students" class="students">
+            <div class="container">
+                <h2>Daftar Siswa/i PPLG 2</h2>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Cari nama siswa...">
+                </div>
+                <div class="students-grid-simple" id="studentsGrid"></div>
+                <div class="section-more">
+                    <button id="showAllStudents" class="show-all-btn">Tampilkan Semua</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projek / yang pernah dikerjakan</h2>
+                <div class="projects-grid" id="projectsGrid"></div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2>Galeri</h2>
+
+                <!-- Carousel -->
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div class="carousel-track" id="carouselTrack">
+                            <!-- Slides populated by JS -->
+                        </div>
+                        <button class="carousel-btn prev" id="prevBtn" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="carousel-btn next" id="nextBtn" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <div class="carousel-indicators" id="carouselIndicators"></div>
+                </div>
+
+                <!-- Gallery Grid -->
+                <div class="gallery-grid" id="galleryGrid"></div>
+                <div class="section-more">
+                    <button id="showAllGallery" class="show-all-btn">Tampilkan Semua</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Hubungi Kami</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Informasi Kontak</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Jl. Talaga Bantarujeg, Mekarraharja, Kec. Talaga,
+                            Kabupaten Majalengka, Jawa Barat 45463</p>
+                        <p><i class="fab fa-instagram"></i> Instagram:
+                            <a href="https://www.instagram.com/xibrilliant_2" target="_blank"
+                                rel="noopener noreferrer">@xibrilliant_2</a>
+                        </p>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Kirim Pesan</h3>
+                        <!-- Pilih salah satu: Web3Forms atau EmailJS -->
+                        <!-- Opsi 1: Web3Forms -->
+                        <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+                            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                            <input type="hidden" name="subject" value="Pesan dari Website PPLG 2">
+                            <input type="hidden" name="from_name" value="Website PPLG 2">
+                            <input type="text" name="name" placeholder="Nama Anda" required>
+                            <input type="email" name="email" placeholder="Email" required>
+                            <textarea name="message" placeholder="Pesan" rows="4" required></textarea>
+                            <button type="submit" class="submit-btn">Kirim Pesan</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><i class="fas fa-graduation-cap"></i> PPLG 2</h3>
+                    <p>Generasi Kreatif, Inovatif, Siap Digital. menjalani
+                        perjalanan belajar yang menarik dan bermakna. dan
+                        siap menghadapi tantangan di era digital.</p>
+
+                    <div class="footer-social">
+                        <h4>Ikuti Kami</h4>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/xibrilliant_2" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang</a></li>
+                        <li><a href="#structure">Struktur</a></li>
+                        <li><a href="#students">Siswa/i</a></li>
+                        <li><a href="#projects">Projek</a></li>
+                        <li><a href="#gallery">Galeri</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024/2025 Kelas PPLG 2 - SMKN 1 TALAGA.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="./asset/js/main.js" defer></script>
+    <script src="./asset/js/structure.js" defer></script>
+
+    <script src="./asset/js/ui/hero-carousel.js" defer></script>
+    <script src="./asset/js/ui/interactions.js" defer></script>
+    <script src="./asset/js/ui/modals.js" defer></script>
+    <script type="module" src="./asset/js/data/students.js" defer></script>
+    <script type="module" src="./asset/js/data/structure-data.js" defer></script>
+    <script type="module" src="./asset/js/data/projects.js" defer></script>
+    <script type="module" src="./asset/js/data/gallery.js" defer></script>
+
+    <!-- Tombol Scroll ke Atas -->
+    <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+</body>
+
+</html>
