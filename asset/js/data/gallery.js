@@ -5,7 +5,7 @@ export const galleryItems = [
     { img: "./asset/img/galery/ala_ala.jpg" },
     { img: "./asset/img/galery/apalah.jpg" },
     { img: "./asset/img/galery/baris.JPG" },
-    { img: "./asset/img/galery/bakar.JPG" },
+    { img: "./asset/img/galery/bakar.jpg" },
     { img: "./asset/img/galery/belajar.jpg" },
     { img: "./asset/img/galery/bersih_bersih.jpg" },
     { img: "./asset/img/galery/briping.JPG" },
@@ -15,7 +15,7 @@ export const galleryItems = [
     { img: "./asset/img/galery/hari_guru5.jpg" },
     { img: "./asset/img/galery/hari_guru_day2.JPG" },
     { img: "./asset/img/galery/hukum.JPG" },
-    { img: "./asset/img/galery/jalan2.JPG" },
+    { img: "./asset/img/galery/jalan2.jpg" },
     { img: "./asset/img/galery/lapor1.jpg" },
     { img: "./asset/img/galery/lapor2.jpg" },
     { img: "./asset/img/galery/lapor3.jpg" },
@@ -25,7 +25,7 @@ export const galleryItems = [
     { img: "./asset/img/galery/olga.jpg" },
     { img: "./asset/img/galery/olga2.jpg" },
     { img: "./asset/img/galery/parit1.JPG" },
-    { img: "./asset/img/galery/pp.JPG" },
+    { img: "./asset/img/galery/pp.jpg" },
     { img: "./asset/img/galery/pbb.JPG" },
     { img: "./asset/img/galery/piala.JPG" },
     { img: "./asset/img/galery/piala1.JPG" },
@@ -34,8 +34,8 @@ export const galleryItems = [
     { img: "./asset/img/galery/piala4.JPG" },
     { img: "./asset/img/galery/renang.jpg" },
     { img: "./asset/img/galery/variasi.JPG" },
-    { img: "./asset/img/galery/bapak_bapak.JPG" },
-    { img: "./asset/img/galery/yesus.JPG" },
+    { img: "./asset/img/galery/bapak_bapak.jpg" },
+    { img: "./asset/img/galery/yesus.jpg" },
     { img: "./asset/img/galery/artis.jpeg" },
     { img: "./asset/img/galery/bataktoba.jpeg" },
     { img: "./asset/img/galery/bataktoba2.jpeg" },
@@ -45,9 +45,7 @@ export const galleryItems = [
     { img: "./asset/img/galery/hitam2.jpeg" },
     { img: "./asset/img/galery/ini.jpeg" },
     { img: "./asset/img/galery/nangis.jpeg" },
-    { img: "./asset/img/galery/pp.jpg" },
-    { img: "./asset/img/galery/pramuka.jpeg" },
-    { img: "./asset/img/galery/yesus.jpg" }
+    { img: "./asset/img/galery/pramuka.jpeg" }
 ];
 
 export let galleryLimit = 4;
