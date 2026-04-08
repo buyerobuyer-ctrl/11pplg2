@@ -87,7 +87,7 @@ const translations = {
         
         // Students
         students_title: "Student List 11 PPLG 2",
-        search_placeholder: "Search student...",
+        search_placeholder: "Search student name...",
         load_more: "Load More",
         show_all: "Show All",
         no_results: "No students found",
