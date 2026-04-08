@@ -229,8 +229,8 @@ export function initShowAllStructure() {
 
 // Security Features
 export function initSecurity() {
-    document.addEventListener('copy', e => e.preventDefault());
-    document.addEventListener('contextmenu', e => e.preventDefault());
-    document.addEventListener('selectstart', e => e.preventDefault());
+    // document.addEventListener('copy', e => e.preventDefault());
+    // document.addEventListener('contextmenu', e => e.preventDefault());
+    // document.addEventListener('selectstart', e => e.preventDefault());
 }
 

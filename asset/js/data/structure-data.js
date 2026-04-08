@@ -1,4 +1,5 @@
 // ==================== DATA STRUCTURE ====================
+import { currentLang } from './bahasa.js';
 
 export const structureData = [
     { name: "NAZWA AULIA RULYIANTI", role: "Bendahara", roleEn: "Treasurer", img: "./asset/img/murid/NAZWA_AULIA_RULYIANTI.webp" },
@@ -31,10 +32,10 @@ export function renderStructure(searchTerm = '') {
     grid.innerHTML = displayData.map(item => `
         <div class="structure-item">
             <div class="structure-photo">
-                <img src="${item.img}" loading="lazy" alt="${item.role}">
+                <img src="${item.img}" loading="lazy" alt="${currentLang === 'en' ? (item.roleEn || item.role) : item.role}">
             </div>
             <div class="structure-info">
-                <h3>${item.role}</h3>
+                <h3>${currentLang === 'en' ? (item.roleEn || item.role) : item.role}</h3>
                 <p>${item.name}</p>
             </div>
         </div>

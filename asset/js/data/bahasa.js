@@ -16,7 +16,7 @@ const translations = {
         // Hero Section (3 slides)
         hero_title_1: "Selamat Datang di Kelas",
         hero_class_1: "11 PPLG 2",
-        hero_desc_1_1: "Ajaran 2024/2025",
+        hero_desc_1_1: "Angkatan 2024/2025",
         hero_desc_1_2: "Generasi Kreatif, Inovatif, Siap Digital",
         hero_btn_1: "Lihat Daftar Siswa",
         
@@ -98,7 +98,7 @@ const translations = {
         // Hero Section (3 slides)
         hero_title_1: "Welcome to Class",
         hero_class_1: "11 PPLG 2",
-        hero_desc_1_1: "Academic Year 2024/2025",
+        hero_desc_1_1: "Class of 2024/2025",
         hero_desc_1_2: "Creative, Innovative, Digital Ready Generation",
         hero_btn_1: "View Student List",
         

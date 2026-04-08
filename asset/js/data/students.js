@@ -1,4 +1,5 @@
 // ==================== DATA STUDENTS ====================
+import { currentLang, translations } from './bahasa.js';
 
 // Data Siswa (31 siswa)
 export const students = [
@@ -69,7 +70,7 @@ export function renderStudents(filter = '') {
             <div class="student-info">
                 <h3>${s.name}</h3>
                 <span class="student-status ${s.status === 'anggota' ? 'member' : 'non-member'}">
-                    <i class="fas fa-${s.status === 'anggota' ? 'user' : 'user-times'}"></i> ${s.status === 'anggota' ? 'Anggota' : 'Bukan Anggota'}
+                    <i class="fas fa-${s.status === 'anggota' ? 'user' : 'user-times'}"></i> ${s.status === 'anggota' ? (currentLang === 'en' ? translations.en.member : 'Anggota') : (currentLang === 'en' ? 'Non-Member' : 'Bukan Anggota')}
                 </span>
             </div>
         </div>
