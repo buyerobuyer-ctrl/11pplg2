@@ -13,12 +13,24 @@ const translations = {
         nav_gallery: "Galeri",
         nav_contact: "Kontak",
         
-        // Hero
-        hero_title: "Selamat Datang di Kelas",
-        hero_class: "11 PPLG 2",
-        hero_semester: "Semester Genap Tahun Ajaran 2024/2025",
-        hero_tagline: "Generasi Kreatif, Inovatif, Siap Digital",
-        hero_btn: "Lihat Daftar Siswa",
+        // Hero Section (3 slides)
+        hero_title_1: "Selamat Datang di Kelas",
+        hero_class_1: "11 PPLG 2",
+        hero_desc_1_1: "Ajaran 2024/2025",
+        hero_desc_1_2: "Generasi Kreatif, Inovatif, Siap Digital",
+        hero_btn_1: "Lihat Daftar Siswa",
+        
+        hero_title_2: "Belajar",
+        hero_class_2: "Pemrograman",
+        hero_desc_2_1: "Web, Mobile, dan Desktop",
+        hero_desc_2_2: "Bersama Guru Profesional",
+        hero_btn_2: "Lihat Projek",
+        
+        hero_title_3: "Momen",
+        hero_class_3: "Tak Terlupakan",
+        hero_desc_3_1: "Setiap foto menyimpan cerita dan kenangan",
+        hero_desc_3_2: "Bersama dalam suka dan duka",
+        hero_btn_3: "Lihat Galeri",
         
         // About
         about_title: "Tentang Kelas PPLG 2",
@@ -28,18 +40,31 @@ const translations = {
         kompetensi: "Kompetensi Keahlian",
         kompetensi_text: "Pengembangan Perangkat Lunak dan Gim",
         
+        // Structure
+        structure_title: "Struktur Organisasi Kelas",
+        wali_kelas_label: "Wali Kelas",
+        ketua_kelas: "Ketua Kelas",
+        wakil_ketua: "Wakil Ketua",
+        sekretaris: "Sekretaris",
+        bendahara: "Bendahara",
+        show_all_structure: "Tampilkan Semua",
+        
         // Students
-        students_title: "Daftar Siswa/i 11 PPLG 2",
+        students_title: "Daftar Siswa/i PPLG 2",
         search_placeholder: "Cari nama siswa...",
         load_more: "Tampilkan Selengkapnya",
         show_all: "Tampilkan Semua",
         no_results: "Tidak ada siswa ditemukan",
+        member: "Anggota",
+        male: "Laki-laki",
+        female: "Perempuan",
         
         // Projects
         projects_title: "Projek / yang pernah dikerjakan",
         
         // Gallery
         gallery_title: "Galeri",
+        show_all_gallery: "Tampilkan Semua",
         
         // Contact
         contact_title: "Hubungi Kami",
@@ -48,17 +73,17 @@ const translations = {
         contact_email: "Email",
         contact_message: "Pesan",
         contact_send: "Kirim Pesan",
+        address: "Jl. Talaga Bantarujeg, Mekarraharja, Kec. Talaga, Kabupaten Majalengka, Jawa Barat 45463",
         
         // Footer
-        footer_tagline: "Generasi Kreatif & Inovatif",
+        footer_tagline: "Generasi Kreatif, Inovatif, Siap Digital. menjalani perjalanan belajar yang menarik dan bermakna. dan siap menghadapi tantangan di era digital.",
         quick_links: "Quick Links",
         follow_us: "Ikuti Kami",
         copyright: "All rights reserved.",
         
-        // Status
-        member: "Anggota",
-        male: "Laki-laki",
-        female: "Perempuan"
+        // Popup Welcome
+        popup_title: "Selamat Datang",
+        popup_message: "Selamat datang di website Kelas PPLG 2 SMKN 1 TALAGA!<br><br>Website ini dibuat untuk memberikan informasi lengkap tentang kelas kami, termasuk daftar siswa, struktur organisasi, projek, dan galeri kegiatan.<br><br>Terima kasih telah mengunjungi website kami!"
     },
     en: {
         // Navbar
@@ -70,12 +95,24 @@ const translations = {
         nav_gallery: "Gallery",
         nav_contact: "Contact",
         
-        // Hero
-        hero_title: "Welcome to Class",
-        hero_class: "11 PPLG 2",
-        hero_semester: "Even Semester Academic Year 2024/2025",
-        hero_tagline: "Creative, Innovative, Digital Ready Generation",
-        hero_btn: "View Student List",
+        // Hero Section (3 slides)
+        hero_title_1: "Welcome to Class",
+        hero_class_1: "11 PPLG 2",
+        hero_desc_1_1: "Academic Year 2024/2025",
+        hero_desc_1_2: "Creative, Innovative, Digital Ready Generation",
+        hero_btn_1: "View Student List",
+        
+        hero_title_2: "Learn",
+        hero_class_2: "Programming",
+        hero_desc_2_1: "Web, Mobile, and Desktop",
+        hero_desc_2_2: "With Professional Teachers",
+        hero_btn_2: "View Projects",
+        
+        hero_title_3: "Unforgettable",
+        hero_class_3: "Moments",
+        hero_desc_3_1: "Every photo holds a story and memory",
+        hero_desc_3_2: "Together in joy and sorrow",
+        hero_btn_3: "View Gallery",
         
         // About
         about_title: "About Class PPLG 2",
@@ -85,18 +122,31 @@ const translations = {
         kompetensi: "Expertise Competency",
         kompetensi_text: "Software and Game Development",
         
+        // Structure
+        structure_title: "Class Organizational Structure",
+        wali_kelas_label: "Homeroom Teacher",
+        ketua_kelas: "Class President",
+        wakil_ketua: "Vice President",
+        sekretaris: "Secretary",
+        bendahara: "Treasurer",
+        show_all_structure: "Show All",
+        
         // Students
-        students_title: "Student List 11 PPLG 2",
+        students_title: "Student List PPLG 2",
         search_placeholder: "Search student name...",
         load_more: "Load More",
         show_all: "Show All",
         no_results: "No students found",
+        member: "Member",
+        male: "Male",
+        female: "Female",
         
         // Projects
         projects_title: "Projects / Completed Works",
         
         // Gallery
         gallery_title: "Gallery",
+        show_all_gallery: "Show All",
         
         // Contact
         contact_title: "Contact Us",
@@ -105,23 +155,28 @@ const translations = {
         contact_email: "Email",
         contact_message: "Message",
         contact_send: "Send Message",
+        address: "Jl. Talaga Bantarujeg, Mekarraharja, Talaga District, Majalengka Regency, West Java 45463",
         
         // Footer
-        footer_tagline: "Creative & Innovative Generation",
+        footer_tagline: "Creative, Innovative, Digital Ready Generation. undergoing an interesting and meaningful learning journey. and ready to face challenges in the digital era.",
         quick_links: "Quick Links",
         follow_us: "Follow Us",
         copyright: "All rights reserved.",
         
-        // Status
-        member: "Member",
-        male: "Male",
-        female: "Female"
+        // Popup Welcome
+        popup_title: "Welcome",
+        popup_message: "Welcome to the PPLG 2 Class website SMKN 1 TALAGA!<br><br>This website was created to provide complete information about our class, including student lists, organizational structures, projects, and activity galleries.<br><br>Thank you for visiting our website!"
     }
 };
 
 function initLanguageSwitch() {
     const langBtn = document.getElementById('langBtn');
     if (!langBtn) return;
+    
+    // Set initial button class
+    if (currentLang === 'en') {
+        langBtn.classList.add('en');
+    }
     
     // Set initial active class
     updateLanguageUI();
@@ -138,6 +193,10 @@ function initLanguageSwitch() {
         }
         
         updateLanguageUI();
+        
+        // Trigger re-render for dynamic content
+        if (typeof renderStudents === 'function') renderStudents();
+        if (typeof renderStructure === 'function') renderStructure();
     });
 }
 
@@ -168,18 +227,44 @@ function updateLanguageUI() {
         if (href === '#contact') link.textContent = translations[currentLang].nav_contact;
     });
     
-    // Update Hero
-    const heroTitle = document.querySelector('.hero-content h1');
-    if (heroTitle) {
-        heroTitle.innerHTML = `${translations[currentLang].hero_title} <span>${translations[currentLang].hero_class}</span>`;
+    // Update Hero Slide 1
+    const heroTitle1 = document.querySelector('.hero-slide:first-child .hero-content h1');
+    if (heroTitle1) {
+        heroTitle1.innerHTML = `${translations[currentLang].hero_title_1} <span>${translations[currentLang].hero_class_1}</span>`;
     }
     
-    const heroParagraphs = document.querySelectorAll('.hero-content p');
-    if (heroParagraphs[0]) heroParagraphs[0].textContent = translations[currentLang].hero_semester;
-    if (heroParagraphs[1]) heroParagraphs[1].textContent = translations[currentLang].hero_tagline;
+    const heroSlide1Paragraphs = document.querySelectorAll('.hero-slide:first-child .hero-content p');
+    if (heroSlide1Paragraphs[0]) heroSlide1Paragraphs[0].textContent = translations[currentLang].hero_desc_1_1;
+    if (heroSlide1Paragraphs[1]) heroSlide1Paragraphs[1].textContent = translations[currentLang].hero_desc_1_2;
     
-    const heroBtn = document.querySelector('.hero-content .cta-button');
-    if (heroBtn) heroBtn.textContent = translations[currentLang].hero_btn;
+    const heroBtn1 = document.querySelector('.hero-slide:first-child .hero-content .cta-button');
+    if (heroBtn1) heroBtn1.textContent = translations[currentLang].hero_btn_1;
+    
+    // Update Hero Slide 2
+    const heroTitle2 = document.querySelector('.hero-slide:nth-child(2) .hero-content h1');
+    if (heroTitle2) {
+        heroTitle2.innerHTML = `${translations[currentLang].hero_title_2} <span>${translations[currentLang].hero_class_2}</span>`;
+    }
+    
+    const heroSlide2Paragraphs = document.querySelectorAll('.hero-slide:nth-child(2) .hero-content p');
+    if (heroSlide2Paragraphs[0]) heroSlide2Paragraphs[0].textContent = translations[currentLang].hero_desc_2_1;
+    if (heroSlide2Paragraphs[1]) heroSlide2Paragraphs[1].textContent = translations[currentLang].hero_desc_2_2;
+    
+    const heroBtn2 = document.querySelector('.hero-slide:nth-child(2) .hero-content .cta-button');
+    if (heroBtn2) heroBtn2.textContent = translations[currentLang].hero_btn_2;
+    
+    // Update Hero Slide 3
+    const heroTitle3 = document.querySelector('.hero-slide:nth-child(3) .hero-content h1');
+    if (heroTitle3) {
+        heroTitle3.innerHTML = `${translations[currentLang].hero_title_3} <span>${translations[currentLang].hero_class_3}</span>`;
+    }
+    
+    const heroSlide3Paragraphs = document.querySelectorAll('.hero-slide:nth-child(3) .hero-content p');
+    if (heroSlide3Paragraphs[0]) heroSlide3Paragraphs[0].textContent = translations[currentLang].hero_desc_3_1;
+    if (heroSlide3Paragraphs[1]) heroSlide3Paragraphs[1].textContent = translations[currentLang].hero_desc_3_2;
+    
+    const heroBtn3 = document.querySelector('.hero-slide:nth-child(3) .hero-content .cta-button');
+    if (heroBtn3) heroBtn3.textContent = translations[currentLang].hero_btn_3;
     
     // Update About section
     const aboutTitle = document.querySelector('#about h2');
@@ -190,14 +275,30 @@ function updateLanguageUI() {
         classInfoItems[0].innerHTML = `<strong>${translations[currentLang].wali_kelas}:</strong> Dewi Robiatul Adawiah, S.Pd.`;
     }
     if (classInfoItems[1]) {
-        classInfoItems[1].innerHTML = `<strong>${translations[currentLang].jumlah_siswa}:</strong> 31 Siswa`;
+        classInfoItems[1].innerHTML = `<strong>${translations[currentLang].tahun_ajaran}:</strong> 2024/2025`;
     }
     if (classInfoItems[2]) {
-        classInfoItems[2].innerHTML = `<strong>${translations[currentLang].tahun_ajaran}:</strong> 2024/2025`;
+        classInfoItems[2].innerHTML = `<strong>${translations[currentLang].jumlah_siswa}:</strong> 31`;
     }
     if (classInfoItems[3]) {
         classInfoItems[3].innerHTML = `<strong>${translations[currentLang].kompetensi}:</strong> ${translations[currentLang].kompetensi_text}`;
     }
+    
+    // Update Structure section
+    const structureTitle = document.querySelector('#structure h2');
+    if (structureTitle) structureTitle.textContent = translations[currentLang].structure_title;
+    
+    const waliKelasTitle = document.querySelector('.wali-kelas .structure-info h3');
+    if (waliKelasTitle) waliKelasTitle.textContent = translations[currentLang].wali_kelas_label;
+    
+    const structureTitles = document.querySelectorAll('.structure-grid-simple .structure-info h3');
+    if (structureTitles[0]) structureTitles[0].textContent = translations[currentLang].ketua_kelas;
+    if (structureTitles[1]) structureTitles[1].textContent = translations[currentLang].wakil_ketua;
+    if (structureTitles[2]) structureTitles[2].textContent = translations[currentLang].sekretaris;
+    if (structureTitles[3]) structureTitles[3].textContent = translations[currentLang].bendahara;
+    
+    const showAllStructureBtn = document.getElementById('showAllStructure');
+    if (showAllStructureBtn) showAllStructureBtn.textContent = translations[currentLang].show_all_structure;
     
     // Update Students section
     const studentsTitle = document.querySelector('#students h2');
@@ -206,11 +307,8 @@ function updateLanguageUI() {
     const searchInput = document.getElementById('searchInput');
     if (searchInput) searchInput.placeholder = translations[currentLang].search_placeholder;
     
-    const loadMoreBtn = document.getElementById('loadMoreStudents');
-    if (loadMoreBtn) loadMoreBtn.textContent = translations[currentLang].load_more;
-    
-    const showAllBtn = document.getElementById('showAllStudents');
-    if (showAllBtn) showAllBtn.textContent = translations[currentLang].show_all;
+    const showAllStudentsBtn = document.getElementById('showAllStudents');
+    if (showAllStudentsBtn) showAllStudentsBtn.textContent = translations[currentLang].show_all;
     
     // Update Projects section
     const projectsTitle = document.querySelector('#projects h2');
@@ -219,6 +317,9 @@ function updateLanguageUI() {
     // Update Gallery section
     const galleryTitle = document.querySelector('#gallery h2');
     if (galleryTitle) galleryTitle.textContent = translations[currentLang].gallery_title;
+    
+    const showAllGalleryBtn = document.getElementById('showAllGallery');
+    if (showAllGalleryBtn) showAllGalleryBtn.textContent = translations[currentLang].show_all_gallery;
     
     // Update Contact section
     const contactTitle = document.querySelector('#contact h2');
@@ -242,6 +343,11 @@ function updateLanguageUI() {
     const submitBtn = document.querySelector('.submit-btn');
     if (submitBtn) submitBtn.textContent = translations[currentLang].contact_send;
     
+    const addressText = document.querySelector('.contact-info p:first-child');
+    if (addressText) {
+        addressText.innerHTML = `<i class="fas fa-map-marker-alt"></i> ${translations[currentLang].address}`;
+    }
+    
     // Update Footer
     const footerTagline = document.querySelector('.footer-logo p');
     if (footerTagline) footerTagline.textContent = translations[currentLang].footer_tagline;
@@ -254,15 +360,16 @@ function updateLanguageUI() {
     
     const copyright = document.querySelector('.footer-bottom p');
     if (copyright) {
-        copyright.innerHTML = `&copy; 2024/2025 Kelas 11 PPLG 2 - SMKN 1 TALAGA. ${translations[currentLang].copyright}`;
+        copyright.innerHTML = `&copy; 2024/2025 Class PPLG 2 - SMKN 1 TALAGA. ${translations[currentLang].copyright}`;
     }
     
-    // Re-render students to update status text
-    renderStudents();
+    // Update Popup Welcome
+    const popupTitle = document.querySelector('#welcomePopup h2');
+    if (popupTitle) popupTitle.textContent = translations[currentLang].popup_title;
+    
+    const popupMessage = document.querySelector('#welcomePopup p');
+    if (popupMessage) popupMessage.innerHTML = translations[currentLang].popup_message;
 }
 
-// Panggil di initialization
-document.addEventListener('DOMContentLoaded', () => {
-    initLanguageSwitch();
-    // ... fungsi lainnya
-});
+// Export for use in other modules
+export { translations, currentLang, initLanguageSwitch, updateLanguageUI };

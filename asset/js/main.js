@@ -14,6 +14,7 @@ import {
     initImageErrorHandler, initSecurity, initShowAllStructure
 } from './ui/interactions.js';
 import { initHeroCarousel } from './ui/hero-carousel.js';
+import { initLanguageSwitch } from './data/bahasa.js';
 
 // Globals available for legacy scripts (structure.js)
 window.students = students;
@@ -63,6 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Carousels
     initCarousel();
     initHeroCarousel();
+    initLanguageSwitch();
 
     console.log('✅ All modules loaded successfully!');
 });
