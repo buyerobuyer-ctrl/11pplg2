@@ -1,6 +1,6 @@
 // ==================== HERO CAROUSEL ====================
 
-const SLIDE_DURATION = 2000;
+const SLIDE_DURATION = 3000;
 
 let heroCurrentIndex = 0;
 let heroSlides = [];

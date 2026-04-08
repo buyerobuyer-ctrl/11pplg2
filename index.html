@@ -18,36 +18,47 @@
 
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
-    <header>
-        <nav class="navbar">
-            <div class="nav-container">
-                <div class="logo">
-                    <h2 id="home">
-                        PPLG 2
-                    </h2>
+<header>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2 id="home">
+                    PPLG 2
+                </h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#structure">Struktur</a></li>
+                <li><a href="#students">Siswa/i</a></li>
+                <li><a href="#projects">Projek</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="nav-right">
+                <!-- Language Switch -->
+                <div class="language-switch">
+                    <button id="langBtn" class="lang-btn">
+                        <span class="lang-id">ID</span>
+                        <span class="lang-separator">|</span>
+                        <span class="lang-en">EN</span>
+                        <div class="lang-slider"></div>
+                    </button>
                 </div>
-                <ul class="nav-menu">
-                    <li><a href="#home">Beranda</a></li>
-                    <li><a href="#about">Tentang</a></li>
-                    <li><a href="#structure">Struktur</a></li>
-                    <li><a href="#students">Siswa/i</a></li>
-                    <li><a href="#projects">Projek</a></li>
-                    <li><a href="#gallery">Galeri</a></li>
-                    <li><a href="#contact">Kontak</a></li>
-                </ul>
-                <div class="nav-right">
-                    <div class="theme-toggle">
-                        <i class="fas fa-moon" id="theme-icon"></i>
-                    </div>
-                    <div class="hamburger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
+                <!-- Theme Toggle -->
+                <div class="theme-toggle">
+                    <i class="fas fa-moon" id="theme-icon"></i>
+                </div>
+                <!-- Hamburger -->
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 
     <div id="welcomePopup" class="popup-overlay">
         <div class="popup-box">
@@ -285,7 +296,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <h3><i class="fas fa-graduation-cap"></i> PPLG 2</h3>
+                    <h3>PPLG 2 <span id="appVersion">Version 1.0.0</span></h3>
                     <p>Generasi Kreatif, Inovatif, Siap Digital. menjalani
                         perjalanan belajar yang menarik dan bermakna. dan
                         siap menghadapi tantangan di era digital.</p>
@@ -328,6 +339,7 @@
     <script type="module" src="./asset/js/data/structure-data.js" defer></script>
     <script type="module" src="./asset/js/data/projects.js" defer></script>
     <script type="module" src="./asset/js/data/gallery.js" defer></script>
+    <script type="module" src="./asset/js/data/bahasa.js" defer></script>
 
     <!-- Tombol Scroll ke Atas -->
     <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">

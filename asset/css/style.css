@@ -2312,3 +2312,76 @@ body.dark-mode .carousel-indicator.active {
     }
 }
 
+/* ==================== LANGUAGE SWITCH BUTTON ==================== */
+.language-switch {
+    margin-right: 0.5rem;
+}
+
+.lang-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 40px;
+    padding: 8px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.lang-btn span {
+    position: relative;
+    z-index: 2;
+    transition: color 0.3s ease;
+}
+
+.lang-id, .lang-en {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.lang-id.active, .lang-en.active {
+    color: white;
+}
+
+.lang-separator {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.lang-slider {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: calc(50% - 3px);
+    height: calc(100% - 6px);
+    background: #f59e0b;
+    border-radius: 40px;
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    z-index: 1;
+}
+
+.lang-btn.en .lang-slider {
+    transform: translateX(calc(100% + 6px));
+}
+
+.lang-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+/* Dark mode */
+body.dark-mode .lang-btn {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .lang-btn {
+        padding: 6px 12px;
+        font-size: 0.75rem;
+    }
+}

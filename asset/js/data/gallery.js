@@ -111,7 +111,7 @@ export function initCarousel() {
 
     if (!track || !indicators) return;
 
-    carouselItems = galleryItems.slice(0, 8);
+    carouselItems = galleryItems.slice(0, 15);
 
     track.innerHTML = carouselItems.map((item, index) => `
         <div class="carousel-slide" data-index="${index}">
